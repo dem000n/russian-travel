@@ -1,0 +1,7 @@
+.header__lng-switch {
+    display: inline-block;
+    justify-self: end;
+    align-self: end;
+    grid-row: 1;
+    margin-bottom: 5px;
+}
