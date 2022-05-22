@@ -20,6 +20,11 @@
 @media screen and (max-width: 767px) {
     .cover__text {
         width: calc(100% - 16px*2);
-        top: 33px;
+    }
+
+    @media screen and (max-width: 452px) {
+        .cover__text {
+            top: 33px;
+        }
     }
 }
