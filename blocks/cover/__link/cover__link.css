@@ -3,6 +3,9 @@
     position: relative;
     text-decoration: none;
     color: #FFFFFF;
+    background-image: url(../../../image/cover-trains.jpg);
+    padding-top: 62.5%;
+    background-size: cover;
 }
 
 .cover__link:before {

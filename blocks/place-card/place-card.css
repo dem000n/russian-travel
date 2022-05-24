@@ -1,4 +1,4 @@
-.places__place {
+.place-card {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 460px 1fr;
@@ -10,21 +10,21 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .places__place {
+    .place-card {
         grid-template-columns: 440px 1fr;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .places__place {
+    .place-card {
         grid-template-columns: 340px 1fr;
         column-gap: 28px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .places__place {
+    .place-card {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
         row-gap: 32px;

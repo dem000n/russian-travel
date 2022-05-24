@@ -1,4 +1,4 @@
-.places__text {
+.place-card__text {
     grid-area: text;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .places__text {
+    .place-card__text {
         margin: 0 16px 0 16px;
     }
 }

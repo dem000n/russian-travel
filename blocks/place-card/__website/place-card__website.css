@@ -1,4 +1,4 @@
-.places__website {
+.place-card__website {
     grid-area: link;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .places__website {
+    .place-card__website {
         margin-left: 16px;
     }
 }
