@@ -1,5 +1,5 @@
 .header__lng-switch {
-    display: inline-block;
+    display: flex;
     justify-self: end;
     align-self: end;
     grid-row: 1;

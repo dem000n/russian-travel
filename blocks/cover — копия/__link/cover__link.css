@@ -1,7 +1,11 @@
 .cover__link {
-    display: block;
+    display: flex;
     position: relative;
-    padding-bottom: calc(100% * 1280 / 2048);
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: url(../../../image/cover-trains.jpg);
+    padding-top: 62.5%;
+    background-size: cover;
 }
 
 .cover__link:before {
@@ -16,7 +20,6 @@
     background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 0.2s ease-out;
-    z-index: 1;
 }
 
 .cover__link:hover:before {
