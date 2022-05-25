@@ -1,8 +1,4 @@
 .places {
-    width: 100%;
-}
-
-.places {
     display: flex;
     flex-direction: column;
     row-gap: 80px;
