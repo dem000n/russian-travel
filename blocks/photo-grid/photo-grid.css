@@ -21,7 +21,7 @@
         padding-top: 88px;
         display: grid;
         gap: 16px;
-        grid-template: repeat(6, 1fr) / repeat(2, 1fr)
+        grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     }
 }
 
