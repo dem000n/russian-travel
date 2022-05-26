@@ -1,7 +1,6 @@
 .cover__link {
     display: block;
     position: relative;
-    /* padding-bottom: calc(100% * 1280 / 2048); */
     background: url(../../../image/cover-trains.jpg);
     background-size: cover;
     background-position: center;
@@ -18,7 +17,6 @@
 }
 
 @media screen and (max-width: 1180px) {
-    /* 1087 */
     .cover__link {
     min-height: 62.5vw;
     }
