@@ -21,15 +21,9 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    .cover__link {
-    min-height: 62.5vw;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .cover__link {
-    min-height: 62.5vw;
+    row-gap: 16px;
     }
 }
 
